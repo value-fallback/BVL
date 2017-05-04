@@ -9,5 +9,7 @@ describe('BVL', () => {
 	it('should return `fallbackValue` when `value` is not Boolean.', () => {
 		assert.strictEqual(bvl(0, false), false);
 		assert.strictEqual(bvl(null, true), true);
+		assert.strictEqual(bvl([1, 2, 3], 'x'), 'x');
+		assert.strictEqual(bvl({ a: 0, b: 1, c: 2}, 100), 100);
 	});
 });
