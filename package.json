@@ -1,0 +1,30 @@
+{
+  "name": "bvl",
+  "version": "1.0.0",
+  "description": "Fallback when a value is not Boolean.",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/value-fallback/BVL"
+  },
+  "keywords": [
+    "boolean",
+    "fallback",
+    "value-fallback"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/value-fallback/BVL/issues"
+  },
+  "homepage": "https://github.com/value-fallback/BVL",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-gluons": "^2.0.1",
+    "mocha": "*"
+  }
+}
