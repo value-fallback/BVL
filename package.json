@@ -1,6 +1,6 @@
 {
   "name": "bvl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fallback when a value is not Boolean.",
   "main": "./index.js",
   "scripts": {
